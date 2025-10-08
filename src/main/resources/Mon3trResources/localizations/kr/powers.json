@@ -15,8 +15,8 @@
   "mon3tr:FocusPower": {
     "NAME": "전투 집중",
     "DESCRIPTIONS": [
-      "Until the end of turn, every time you play Attack, lose #b",
-      " #yHumanity.",
+      "턴이 끝날 때까지 공격 카드만 사용할 수 있습니다. NL 공격 피해량이 #b",
+      " % 증가합니다.",
       "공격에 집중해야 해!"
     ]
   },
@@ -26,7 +26,7 @@
       "모든 카드는 #y반복 횟수만큼, 피해량과 방어도가 #b",
       " 증가합니다. 증가량은 #b",
       " 배를 초과할 수 없습니다.",
-      "Reset the effect of positive and negative #yHumanity to 10% and 15% separately."
+      "#y인간성의 양수/음수 수치에 따른 효과가 각각 10% / 15%로 변경됩니다."
     ]
   },
   "mon3tr:DeconstructionPower": {
@@ -220,14 +220,14 @@
     ]
   },
   "mon3tr:PersonalityPower": {
-    "NAME": "Humanity",
+    "NAME": "인간성",
     "DESCRIPTIONS": [
-      "Decrease the attack you receive by #b",
-      "Increase the attack you deal by #b",
-      "% (7% for each, decrease to 5 every turn). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
-      "% (10% for each, decrease to 5 every turn). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
-      "% (10% for each, decrease to 5 every turn). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
-      "% (15% for each, decrease to 5 every turn). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative."
+      "받는 피해가 #b",
+      "주는 피해가 #b",
+      "% 감소합니다 (중첩 당 7%, 턴 시작 시 최대 5 중첩으로 감소). NL 엑스트라 턴 시작 시 인간성의 양/음을 설정할 수 있습니다.",
+      "% 증가합니다 (중첩 당 10%, 턴 시작 시 최대 5 중첩으로 감소). NL 엑스트라 턴 시작 시 인간성의 양/음을 설정할 수 있습니다.",
+      "% 감소합니다 (중첩 당 10%, 턴 시작 시 최대 5 중첩으로 감소). NL 엑스트라 턴 시작 시 인간성의 양/음을 설정할 수 있습니다.",
+      "% 증가합니다 (중첩 당 15%, 턴 시작 시 최대 5 중첩으로 감소). NL 엑스트라 턴 시작 시 인간성의 양/음을 설정할 수 있습니다."
     ]
   }
 }

@@ -133,14 +133,16 @@
   },
   {
     "NAMES": [
-      "humanity"
+      "인간성",
+      "인간성을",
+      "인간성이"
     ],
-    "DESCRIPTION": "If positive, you take 7% less damage from attack for each Humanity you have. NL If negative, you deal 10% more damage through Attack for each Humanity you have. NL At the start of your turn, decrease Humanity to 5; if this is #yExtra-turn, you can set your Humanity as positive or negative."
+    "DESCRIPTION": "수치가 양수일 때, 인간성 1 마다 받는 피해가 7％ 감소합니다. NL 수치가 음수일 때, 인간성 1 마다 주는 피해가 10% 증가합니다. NL #y턴 #y시작 #y시 : 인간성이 5 이상이면 5로 조정됩니다. NL #y엑스트라 #y턴일 경우, 인간성의 양수/음수 상태를 설정할 수 있습니다."
   },
   {
     "NAMES": [
-      "concentric-Iteration"
+      "동축반복"
     ],
-    "DESCRIPTION": "Every time you Iterate, let the card with the same ID gain 1#bprimary Iterate count in the coming battles."
+    "DESCRIPTION": "반복이 발생할 때마다, 같은 이름의 카드가 이후 모든 전투에서 #b초기 #b반복 #b횟수를 1 얻습니다."
   }
 ]

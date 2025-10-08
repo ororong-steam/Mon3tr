@@ -35,8 +35,11 @@
   },
   "mon3tr:Smephi": {
     "NAME": "메피스토, \"노래하는 자\"",
-    "MOVES": [],
-    "DIALOG": []
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
   },
   "mon3tr:Rager": {
     "NAME": "폭주한 숙주 리더"

@@ -26,7 +26,7 @@
   },
   "mon3tr:PrepareMedicine": {
     "NAME": "의료 준비",
-    "DESCRIPTION": "Gain 1 mon3tr:Humanity. NL Gain !M! Block in the next turn."
+    "DESCRIPTION": "mon3tr:인간성을 !B! 얻습니다. NL 다음 턴에 방어도를 !M! 얻습니다."
   },
   "mon3tr:Redirect": {
     "NAME": "재배치",
@@ -41,7 +41,7 @@
     "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 턴에 대상을 공격할 때마다 추가 피해를 !M! 줍니다."
   },
   "mon3tr:IntoTheMarrow": {
-    "NAME": "골수 속으로",
+    "NAME": "뼛속에 각인",
     "DESCRIPTION": "mon3tr:일회용 , 강화불가.  NL 모든 적의 체력을 대상의 최대 체력 !M! % 만큼 감소시킵니다.",
     "EXTENDED_DESCRIPTION": [
       "(체력 !D! 잃음) NL "
@@ -57,7 +57,7 @@
   },
   "mon3tr:CrackStrike": {
     "NAME": "찢어발기기",
-    "DESCRIPTION": "Deal !D! to a random enemy 2 times. NL Lose 2 mon3tr:Humanity."
+    "DESCRIPTION": "무작위 적들에게 피해를 !D! 만큼 2번 줍니다. NL mon3tr:인간성을 2 잃습니다."
   },
   "mon3tr:WeaveBlock": {
     "NAME": "책략: 우회 공격",
@@ -101,7 +101,7 @@
   },
   "mon3tr:ShiningTogether": {
     "NAME": "함께 빛나리",
-    "DESCRIPTION": " mon3tr:Evolve !M! : Non-cost-0 card. NL Deal !D! damage. NL When trigger *Evolve , increase this card's damage and source's mon3tr:Iterate counter by !M!."
+    "DESCRIPTION": " mon3tr:진화 !M! : 비용이 0 이 아닌 카드. NL 피해를 !D! 줍니다. NL 이 카드가 *진화하면, 조건 카드와 이 카드의 mon3tr:반복 횟수가 !M! 증가합니다."
   },
   "mon3tr:FadeAndGrow": {
     "NAME": "쇠퇴 그리고 성장",
@@ -122,21 +122,25 @@
     "DESCRIPTION": "mon3tr:결정을 !M! 부여합니다. NL mon3tr:엑스트라 *턴에 진입하면 이 카드를 손으로 가져옵니다."
   },
 
+
   "mon3tr:BattleFocus": {
     "NAME": "전투 집중",
-    "DESCRIPTION": "Deal !D! damage. NL Until the end of turn, every time you play Attack, lose 1 mon3tr:Humanity."
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 턴이 끝날 때까지 공격할 때마다, mon3tr:인간성을 1 잃습니다."
   },
   "mon3tr:ExistInNameOnly": {
     "NAME": "유명무실",
-    "DESCRIPTION": "Deal !D! damage. NL Deal again with damage(-3) after each deal, up to a maximum of mon3tr:Iteration counter."
+    "DESCRIPTION": "피해를 !D! 줍니다. NL mon3tr:반복 횟수만큼 피해량을 !M! 씩 차감하여 추가 피해를 입힙니다.",
+    "EXTENDED_DESCRIPTION": [
+      "피해를 !D! 줍니다. NL 입힌 피해량이 이전과 다를 경우, 이 과정을 반복합니다."
+    ]
   },
   "mon3tr:DensificationBody": {
     "NAME": "고밀도화",
-    "DESCRIPTION": "Gain !B! Block . NL The mon3tr:Crystal you have will increase the block you gain from this card. NL If your mon3tr:Humanity is negative, deal equal damage to all enemies."
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 자신의 mon3tr:결정 만큼 이 카드의 방어도가 증가합니다. NL mon3tr:인간성이 음수라면 그만큼 모든 적에게 피해를 줍니다."
   },
   "mon3tr:NewLive": {
     "NAME": "재탄생",
-    "DESCRIPTION": " Exhaust a card in your hand. NL Gain mon3tr:Humanity equals to its cost ."
+    "DESCRIPTION": "카드를 1장 소멸시킵니다. NL 소멸시킨 카드의 비용만큼 mon3tr:인간성을 얻습니다."
   },
   "mon3tr:DeconstructToChaos": {
     "NAME": "혼돈 해체",
@@ -182,7 +186,7 @@
     ]
   },
   "mon3tr:InDustOrBlood": {
-    "NAME": "먼지나 피 속에서",
+    "NAME": "먼지 혹은 핏속에서",
     "DESCRIPTION": "피해를 !D! 줍니다. NL 적의 현재 체력이 최대 체력보다 20% 낮을 때마다, *기억의 *파편을 얻습니다."
   },
   "mon3tr:CriticalPoint": {
@@ -196,7 +200,7 @@
   },
   "mon3tr:TimeSand": {
     "NAME": "시간의 모래",
-    "DESCRIPTION": "Retain . NL Deal !D! damage !M! times. NL When Retained , increase its attack time by 1 and mon3tr:iterate count by 2."
+    "DESCRIPTION": "보존. NL 피해를 !D! 만큼 !M! 번 줍니다. NL 이번 전투동안 보존될 때마다, 공격 횟수가 1 증가하고, mon3tr:반복 횟수가 2 증가합니다."
   },
   "mon3tr:Resonance": {
     "NAME": "공명",
@@ -207,8 +211,8 @@
     "DESCRIPTION": "!M! *금속화를 얻습니다. NL 내 턴 시작시 1 *금속화를 얻습니다."
   },
   "mon3tr:CanGetBack": {
-    "NAME": "다시 얻은 기회",
-    "DESCRIPTION": "Lose !M! mon3tr:Humanity . NL If this card is in your hand at the end of your turn, gain !M! mon3tr:Humanity ."
+    "NAME": "돌아갈 기회",
+    "DESCRIPTION": "mon3tr:인간성을 !M! 잃습니다. NL 턴 종료시 손에 있다면, mon3tr:인간성을 !M! 얻습니다."
   },
   "mon3tr:StarWeb": {
     "NAME": "스타 네트워크",
@@ -220,7 +224,7 @@
   },
   "mon3tr:HotShock": {
     "NAME": "히트 쇼크",
-    "DESCRIPTION": "Gain !B! Block . NL Lose [E] and mon3tr:Transcript this card. NL If your mon3tr:Humanity is positive, the effect will be triggered twice."
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL [E] 를 잃고 이 카드를 mon3tr:전사 합니다. NL mon3tr:인간성이 양수라면, 한 번 더 발동합니다."
   },
   "mon3tr:PolishClaws": {
     "NAME": "발톱 광내기",
@@ -285,12 +289,16 @@
   },
   "mon3tr:CrystalEntity": {
     "NAME": "결정 시각화",
-    "DESCRIPTION": "mon3tr:Concentric-Iteration . NL mon3tr:Evolve 1: Power .NL Every time this card gain mon3tr:Iterate count, deal !M! damage to all enemies."
+    "DESCRIPTION": "mon3tr:동축반복 . NL mon3tr:진화 1: 파워 카드. NL mon3tr:반복 횟수가 3 증가할 때마다, 모든 적에게 피해를 !M! 줍니다."
   },
 
   "mon3tr:NamedMonster": {
     "NAME": "내 이름은 \"Monster\"",
-    "DESCRIPTION": "모든 카드는 mon3tr:반복 횟수만큼, 피해량과 방어도가 1 증가합니다."
+    "DESCRIPTION": "모든 카드는 mon3tr:반복 횟수만큼 피해량과 방어도가 !M! 증가합니다. NL (최대 기존의 !M! 배까지)",
+    "EXTENDED_DESCRIPTION": [
+
+      "mon3tr:인간성을 !M! 얻습니다. NL mon3tr:인간성이 양수일 경우 효과는 10%, 음수일 경우 15%가 됩니다."
+    ]
   },
   "mon3tr:NoLongerSung": {
     "NAME": "더는 칭송받지 않는 자",
@@ -315,7 +323,7 @@
     "UPGRADE_DESCRIPTION": "*과거로부터 *온 *자를 얻습니다. NL *지금 *여기에 *있는 *자를 얻습니다."
   },
   "mon3tr:ShatteredEcho": {
-    "NAME": "부서진 기억",
+    "NAME": "부서진 메아리",
     "DESCRIPTION": "mon3tr:진화 !M! : 상태이상 카드. NL 피해를 !D! 줍니다. NL 이 카드의 mon3tr:반복 횟수를 제거하고, 그만큼 *기억의 *파편을 사용합니다.",
     "UPGRADE_DESCRIPTION": "mon3tr:진화 !M! : 상태이상 카드. NL 피해를 !D! 줍니다. NL 이 카드의 mon3tr:반복 횟수를 제거하고, 그만큼 *기억의 *파편+을 사용합니다."
   },
@@ -349,7 +357,7 @@
     "DESCRIPTION": "피해를 !D! 줍니다. NL 대상의 mon3tr:결정을 2 배로 늘립니다."
   },
   "mon3tr:PastEndsFuture": {
-    "NAME": "과거와 미래의 종착점",
+    "NAME": "과거와 미래의 종점",
     "DESCRIPTION": "소멸. NL 카드를 선택합니다: NL 다음 턴 시작 시, 소멸과 상관없이 손으로 가져옵니다.",
     "UPGRADE_DESCRIPTION": "보존, 소멸. NL 카드를 선택합니다: NL 다음 턴 시작 시, 소멸과 상관없이 손으로 가져옵니다."
   },
@@ -601,11 +609,11 @@
     "FLAVOR": "Card Image is to be made……"
   },
   "mon3tr:PersonTrue": {
-    "NAME": "\"Human\"",
-    "DESCRIPTION": "Set your mon3tr:Humanity as positive. NL Gain 1 mon3tr:Humanity ."
+    "NAME": "“인간”",
+    "DESCRIPTION": "mon3tr:인간성을 양수로 설정합니다. NL mon3tr:인간성을 1 얻습니다."
   },
   "mon3tr:PersonFalse": {
-    "NAME": "\"Beast\"",
-    "DESCRIPTION": "Set your mon3tr:Humanity as negative. NL Lose 1 mon3tr:Humanity ."
+    "NAME": "“짐승”",
+    "DESCRIPTION": "mon3tr:인간성을 음수로 설정합니다. NL mon3tr:인간성을 1 잃습니다."
   }
 }
