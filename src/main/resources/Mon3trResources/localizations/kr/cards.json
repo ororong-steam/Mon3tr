@@ -26,7 +26,7 @@
   },
   "mon3tr:PrepareMedicine": {
     "NAME": "의료 준비",
-    "DESCRIPTION": "mon3tr:인간성을 !B! 얻습니다. NL 다음 턴에 방어도를 !M! 얻습니다."
+    "DESCRIPTION": "mon3tr:인간성을 1 얻습니다. NL 다음 턴에 방어도를 !M! 얻습니다."
   },
   "mon3tr:Redirect": {
     "NAME": "재배치",
